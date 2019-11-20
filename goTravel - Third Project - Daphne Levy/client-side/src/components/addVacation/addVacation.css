@@ -1,0 +1,36 @@
+.addVacation {
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+
+  margin: 20px;
+  margin-left: 35%;
+  padding: 10px;
+  widows: 200px;
+  height: 650px;
+  overflow: auto;
+  background-color: white;
+  border-radius: 50px;
+  color: darkblue;
+  font-size: 20px;
+}
+
+.addVacation button:hover {
+  background-color: yellow;
+}
+
+.addVacation input,
+.addVacation button,
+.addVacation textarea {
+  font-size: x-large;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.addVacation h2 {
+  font-weight: bold;
+  font-style: oblique;
+  color: darkgoldenrod;
+}

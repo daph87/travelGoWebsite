@@ -1,0 +1,30 @@
+.layout {
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 15% 85%;
+  grid-template-columns: repeat(12, 1fr);
+}
+.layout > header {
+  border: 1px solid black;
+  grid-column: span 12;
+}
+.layout > aside {
+  border: 1px solid black;
+  grid-column: span 2;
+  background-color: azure;
+}
+
+.layout > main {
+  border: 1px solid black;
+  grid-column: span 10;
+  background-image: url("/assets/images/sky.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
+}

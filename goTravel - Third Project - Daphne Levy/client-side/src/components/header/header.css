@@ -1,0 +1,24 @@
+.header {
+  height: 100%;
+  background-color: azure;
+}
+
+.header > h1 {
+  color: darkslategray;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  text-align: center;
+  font-family: "arial";
+}
+
+@font-face {
+  src: url("/public/assets/fonts/OLDTYPE\ PERSONAL\ USE___.otf");
+  font-family: "Traveller";
+}
+
+span {
+  color: darkred;
+}

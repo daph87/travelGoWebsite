@@ -1,0 +1,35 @@
+.vacation-card {
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 10px;
+
+  text-align: center;
+  overflow: auto;
+}
+
+.vacation-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.vacation-card .delete-button {
+  color: red;
+  margin-top: 5px;
+  margin-left: 80%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#follow {
+  background-color: aqua;
+}
+
+.vacation-card .editButton {
+  font-size: larger;
+}

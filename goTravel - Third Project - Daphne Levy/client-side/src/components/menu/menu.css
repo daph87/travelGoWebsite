@@ -1,0 +1,15 @@
+.menu > nav > a {
+  color: darkslategray;
+  font-size: xx-large;
+  font-family: Arial;
+  margin: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: darkred;
+}
+.active-link {
+  font-weight: bold;
+}

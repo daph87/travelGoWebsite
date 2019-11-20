@@ -1,0 +1,40 @@
+.signUp {
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 70%;
+  padding: 10px;
+  widows: 200px;
+  height: 480px;
+
+  background-color: white;
+  border-radius: 2px;
+}
+.signUp span {
+  color: red;
+  margin: 5px;
+}
+.signUp button:hover {
+  background-color: lightgrey;
+  margin-top: 5px;
+}
+
+.signUp input {
+  font-size: large;
+  border: 1px solid black;
+
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+.signUp button {
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-top: 5px;
+}

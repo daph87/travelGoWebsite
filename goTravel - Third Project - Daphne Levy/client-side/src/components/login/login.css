@@ -1,0 +1,39 @@
+.login {
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 70%;
+  padding: 10px;
+  widows: 200px;
+  height: 300px;
+
+  background-color: white;
+  border-radius: 2px;
+}
+.login span {
+  color: red;
+  margin: 5px;
+}
+.login button:hover {
+  background-color: grey;
+  margin-top: 5px;
+}
+
+.login input {
+  font-size: large;
+  border: 1px solid black;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+.login button {
+  border: 1px solid black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-top: 5px;
+}

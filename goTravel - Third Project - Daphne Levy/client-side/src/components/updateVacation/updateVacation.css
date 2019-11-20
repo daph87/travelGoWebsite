@@ -1,0 +1,49 @@
+.updateVacation {
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 3%;
+  margin-left: 45%;
+
+  color: darkblue;
+  font-size: 20px;
+
+  padding: 10px;
+  widows: 200px;
+  height: 80%;
+
+  background-color: white;
+  border-radius: 50px;
+}
+
+.updateVacation button:hover {
+  background-color: lightgrey;
+  margin-top: 5px;
+}
+
+.updateVacation input {
+  font-size: large;
+  border: 1px solid black;
+
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+.updateVacation button {
+  border: 1px solid black;
+
+  padding: 5px 10px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-top: 5px;
+}
+
+.updateVacation h2 {
+  font-weight: bold;
+  font-style: oblique;
+  color: darkred;
+}
